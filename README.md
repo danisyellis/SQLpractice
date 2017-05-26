@@ -76,13 +76,13 @@ For each real-world app chosen there exists:
 
  [X]A SQL schema in the file <app name>/schema.sql.
  A set of mock data INSERT statements in the file <app name>/mock_data.sql.
- A set of example queries in the file <app name>/queries.sql.
- Queries against the real-world apps use the INSERT keyword (at least once)
- Queries against the real-world apps use the UPDATE keyword (at least once)
- Queries against the real-world apps use the DELETE keyword (at least once)
+ [X]A set of example queries in the file <app name>/queries.sql.
+ [X]Queries against the real-world apps use the INSERT keyword (at least once)
+ [X]Queries against the real-world apps use the UPDATE keyword (at least once)
+ [X]Queries against the real-world apps use the DELETE keyword (at least once)
  Queries against the real-world apps use the WHERE keyword (at least once)
  Queries against the real-world apps use the LIMIT keyword (at least once)
  Queries against the real-world apps use the ORDER BY keyword (at least once)
  Queries against the real-world apps use the JOIN keyword (at least once)
- SQL in all real-world app SQL files have consistent indentation.
- All the SQL keywords all real-world app SQL files are written in ALL CAPS.
+ [X]SQL in all real-world app SQL files have consistent indentation.
+ [X]All the SQL keywords all real-world app SQL files are written in ALL CAPS.

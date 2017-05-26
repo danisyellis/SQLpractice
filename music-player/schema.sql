@@ -30,7 +30,7 @@ PRIMARY KEY ("id")
 
 CREATE TABLE "playlist_songs" (
 "song_id" INTEGER NOT NULL ,
-"playlist_id" INTEGER NOT NULL ,
+"playlist_id" INTEGER NOT NULL 
 );
 
 ALTER TABLE "playlist_songs" ADD FOREIGN KEY ("song_id") REFERENCES "songs" ("id");

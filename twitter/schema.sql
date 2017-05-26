@@ -10,7 +10,6 @@ CREATE TABLE "tweets" (
 "id"  SERIAL ,
 "user_id" INTEGER ,
 "content" VARCHAR ,
-"fave_id" INTEGER ,
 PRIMARY KEY ("id")
 );
 

@@ -1,7 +1,6 @@
 CREATE TABLE "boards" (
 "id"  SERIAL ,
 "board_name" TEXT ,
-"new field" INTEGER ,
 PRIMARY KEY ("id")
 );
 

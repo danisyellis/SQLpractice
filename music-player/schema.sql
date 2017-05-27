@@ -22,7 +22,7 @@ CREATE TABLE "songs" (
 PRIMARY KEY ("id")
 );
 
-CREATE TABLE "Playlists" (
+CREATE TABLE "playlists" (
 "id"  SERIAL ,
 "name" TEXT ,
 PRIMARY KEY ("id")
@@ -30,8 +30,8 @@ PRIMARY KEY ("id")
 
 CREATE TABLE "playlist_songs" (
 "song_id" INTEGER NOT NULL ,
-"playlist_id" INTEGER NOT NULL 
+"playlist_id" INTEGER NOT NULL
 );
 
 ALTER TABLE "playlist_songs" ADD FOREIGN KEY ("song_id") REFERENCES "songs" ("id");
-ALTER TABLE "playlist_songs" ADD FOREIGN KEY ("playlist_id") REFERENCES "Playlists" ("id");
+ALTER TABLE "playlist_songs" ADD FOREIGN KEY ("playlist_id") REFERENCES "playlists" ("id");

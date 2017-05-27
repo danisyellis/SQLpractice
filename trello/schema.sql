@@ -13,7 +13,7 @@ PRIMARY KEY ("id")
 
 CREATE TABLE "users_boards" (
 "user_id" INTEGER NOT NULL ,
-"board_id" INTEGER ,
+"board_id" INTEGER
 );
 
 CREATE TABLE "orgs" (
@@ -24,12 +24,12 @@ PRIMARY KEY ("id")
 
 CREATE TABLE "org_boards" (
 "org_id" INTEGER ,
-"board_id" INTEGER ,
+"board_id" INTEGER
 );
 
 CREATE TABLE "org_users" (
 "org_id" INTEGER ,
-"user_id" INTEGER ,
+"user_id" INTEGER 
 );
 
 CREATE TABLE "columns_in_board" (

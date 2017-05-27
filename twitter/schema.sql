@@ -31,7 +31,7 @@ PRIMARY KEY ("id")
 
 CREATE TABLE "follows" (
 "follower_user_id" INTEGER ,
-"followed_user_id" INTEGER ,
+"followed_user_id" INTEGER 
 );
 
 ALTER TABLE "tweets" ADD FOREIGN KEY ("user_id") REFERENCES "user" ("id");

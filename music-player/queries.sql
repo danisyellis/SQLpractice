@@ -9,3 +9,9 @@ SELECT name FROM artists WHERE genre IN ("rock", "hip-hop", "classical");
 SELECT name FROM artists
   JOIN albums
   ON artists.id = albums.artist_id;
+
+
+SELECT songs.title AS "Song", artists.name AS "Artist", albums.title AS "Album", artists.genre FROM songs
+  JOIN albums ON songs.album_id = albums.id
+  JOIN artists ON albums.artist_id =  artists.id
+  WHERE songs.id = 1;
